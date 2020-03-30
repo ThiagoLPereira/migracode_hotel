@@ -1,0 +1,14 @@
+
+.navbar {
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    opacity: 9;
+}
+.migracode-logo {
+    width: 30%;
+}
+.navbar .nav-item .nav-link {
+    color: rgb(0, 0, 255);
+}
+.background {
+    background-size:cover;
+}
