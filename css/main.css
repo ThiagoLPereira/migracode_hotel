@@ -12,3 +12,18 @@
 .background {
     background-size:cover;
 }
+.form-inline {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img {
+    width: 2550px;
+}
+    .carousel-caption{
+        color: floralwhite;
+        font-size: 100px;
+        box-shadow: 1000px, 1000px, 1000px rgb(0, 0, 0) ;
+        opacity: 100;
+        
+    }
+
