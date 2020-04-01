@@ -17,13 +17,8 @@
     justify-content: space-around;
 }
 .img {
-    width: 2550px;
-}
-    .carousel-caption{
-        color: floralwhite;
-        font-size: 100px;
-        box-shadow: 1000px, 1000px, 1000px rgb(0, 0, 0) ;
-        opacity: 100;
-        
+    width: 2550px;   
     }
-
+.bg-opacity {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
