@@ -1,24 +1,188 @@
-
-.navbar {
-    box-shadow: 4px 4px 10px rgb(0, 0, 0);
-    opacity: 9;
-}
-.migracode-logo {
-    width: 30%;
-}
-.navbar .nav-item .nav-link {
-    color: rgb(0, 0, 255);
-}
-.background {
-    background-size:cover;
-}
-.form-inline {
-    flex-direction: row;
-    justify-content: space-around;
-}
-.img {
-    width: 2550px;   
+    /*Nav Bar*/
+    
+    .migracode-logo {
+        width: 18%;
     }
-.bg-opacity {
-    box-shadow: 2px 2px 5px rgb(0, 0, 0);
-}
+    
+    .topnav {
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .navbar {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    
+    body,
+    ul,
+    li,
+    p {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        font-size: 1.0rem;
+        font-family: Arial;
+    }
+    
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #06dfcd;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+    }
+    
+    .menu li {
+        margin-right: 50px;
+    }
+    
+    .menu li a {
+        display: block;
+        padding: 10px;
+    }
+    
+    label {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        font-size: 1.0rem;
+        font-family: Arial;
+    }
+    /*Background*/
+    
+    .carousel {
+        z-index: -91;
+    }
+    /*Form Box*/
+    
+    .container-1 {
+        display: flex;
+        width: auto;
+        z-index: 100;
+        margin-top: 1%;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        padding: 0% 0% 0% 0%;
+    }
+    
+    h5 {
+        text-align: center;
+    }
+    
+    .booking-form-box {
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        max-width: 350px;
+        margin: 10% auto 0;
+    }
+    
+    .nav-bar-1 {
+        margin-top: 10%;
+    }
+    
+    .radio-btn {
+        margin: 20px;
+    }
+    
+    .radio-btn .btn {
+        margin: 20px 10px 20px 0;
+        box-shadow: nome;
+    }
+    
+    .radio-btn .btn::after {
+        content: '';
+        height: 15px;
+        width: 15px;
+        top: -2px;
+        left: -1px;
+        background-color: #fff;
+        position: relative;
+        display: inline-block;
+        border: 3px solid #fff;
+        visibility: visible;
+        border-radius: 50%;
+    }
+    
+    .radio-btn .btn:checked::after {
+        content: '';
+        background-color: #000;
+        transition: 0.5s;
+    }
+    
+    .radio-btn span {
+        color: rgb(0, 0, 0);
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    
+    .booking-form {
+        padding: 0 20px 20px;
+    }
+    
+    .booking-form label {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        font-size: 12px;
+        color: rgb(0, 0, 0);
+    }
+    
+    input::placeholder {
+        color: rgb(0, 0, 0) !important;
+    }
+    
+    .input-grp {
+        width: 151px;
+        display: inline-block;
+    }
+    
+    .from-control {
+        font-size: 12px!important;
+        border-radius: 0!important;
+        color: rgb(0, 0, 0)!important;
+        box-shadow: none!important;
+    }
+    
+    .select-date::-webkit-inner-spin-button,
+    .select-date::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin-top: 0;
+    }
+    
+    .navbar {
+        box-shadow: 4px 4px 10px rgb(0, 0, 0);
+        opacity: 9;
+    }
+    
+    .navbar .nav-item .nav-link {
+        color: rgb(0, 0, 255);
+    }
+    
+    .collapse.navbar-collapse {
+        display: flex;
+        align-content: initial;
+    }
+    
+    .card-deck {
+        margin-top: 29%;
+        margin-bottom: 200%;
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly
+    }
+    
+    .carousel-inner style {
+        z-index: -90;
+        position: absolute;
+        position: fixed;
+    }
